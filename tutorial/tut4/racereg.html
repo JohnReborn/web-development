@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Race Registration</title>
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <div class="Registration">
+        <form action="/raceREG">
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="firstname" required>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="lastname" required>
+
+            </p>
+            <label for="race">Select a Race:</label>
+            <p>
+                <label for="funrun">Fun Run 5K</label>
+                <input type="radio" name="funrun" id="funrun" required>
+                <label for="halfmarathron">Half Marathron</label>
+                <input type="radio" name="halfmarathron" id="halfmarathron" required>
+                <label for="fullmarathon">Full Marathon</label>
+                <input type="radio" name="fullmarathon" id="fullmarathon" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </p>
+            <label for="age">Select Age Group</label>
+            <select name="agegroup">
+                <option value="kids"> Under 18</option>
+                <option value="adult">30-50</option>
+                <option value="elderly">50+</option>
+            </select>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
